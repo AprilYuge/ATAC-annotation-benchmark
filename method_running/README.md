@@ -25,4 +25,4 @@ The versions of packages we used are shown below.
 
 ### Code references
 
-To make the implementation of [scGCN](https://github.com/QSong-github/scGCN) and [scJoint](https://github.com/SydneyBioX/scJoint) easier, we modified their source code by adding some helper functions. Moreover for sGCN, since the original code rely on older versions of tensorflow and numpy, we also modified their code to make it compatible with more updated tensorflow and numpy.
+To make the implementation of [scGCN](https://github.com/QSong-github/scGCN) and [scJoint](https://github.com/SydneyBioX/scJoint) easier, we modified their source code by adding some helper functions. Moreover for sGCN, since the original code rely on older versions of tensorflow and numpy, we also modified their code to make it compatible with more updated tensorflow and numpy. The modified versions of scGCN and scJoint are under the folders named as `scGCN` and `scJoint` in this directory, respectively.
