@@ -2,7 +2,7 @@
 
 This reporsity contains scripts and notebooks for reproducing results in the manuscript “*Benchmarking automated cell type annotation tools for single-cell ATAC-seq data*”. Scripts are divided into three parts. The first part contains notebooks used for data clearning, formatting, peak set mapping, gene activity matrix calculation and similarity matrix calculation in the [data_processing](https://github.com/AprilYuge/ATAC-annotation-benchmark/tree/main/data_processing) folder. The second part contains all scripts used for running the five methods we benchmarked (Bridge integration [1], scJoint [2], scGCN [3], Seurat v3 [4] and Conos [5]) and can be found in folder [method_running](https://github.com/AprilYuge/ATAC-annotation-benchmark/tree/main/method_running). The third part includes scripts and notebooks used for metric calculation in the [metric_calculation](https://github.com/AprilYuge/ATAC-annotation-benchmark/tree/main/metric_calculation) folder.
 
-More details about our benchmaking study can be found in our [manuscript](https://submit.biorxiv.org/submission/pdf?msid=BIORXIV/2022/511014&roleName=author&msversion=1).
+More details about our benchmaking study can be found in our [manuscript](https://www.biorxiv.org/content/10.1101/2022.10.05.511014v1).
 
 ### Paper references
 
