@@ -126,8 +126,8 @@ def aggregate_res_xp(params, atac_unique=True):
     Paramter
     --------------
     params: This is a list of lists. Each list contains probability matrix, true labels,
-        similarity matrix, data name, method name, and path to RNA data. 
-        (e.g. [prob, true_label, sim, 'brain-share', 'bridge', RNA_path])
+        similarity matrix, data name, seed, method name, and path to RNA data. 
+        (e.g. [prob, true_label, sim, 'brain-share', 0, 'bridge', RNA_path])
     
     """
     
