@@ -41,7 +41,7 @@ import torch
 
 from pathlib import Path
 from datetime import datetime
-sys.path.append('/gpfs/gibbs/pi/zhao/xs272/Multiomics/scJoint')
+sys.path.append('./scJoint')
 from util.trainingprocess_stage1 import TrainingProcessStage1
 from util.trainingprocess_stage3 import TrainingProcessStage3
 from util.knn import KNN

@@ -2,8 +2,8 @@ args = commandArgs(trailingOnly=TRUE)
 if (!(length(args) %in% c(3,5,6))) {
       stop("One argument must be supplied (input file).n", call.=FALSE)
 }
-source("/gpfs/gibbs/pi/zhao/yw599/Multiome/utils.r")
-scGCN_path <- "/gpfs/gibbs/pi/zhao/xs272/Multiomics/scGCN/scGCN"
+source("./utils.r")
+scGCN_path <- "./scGCN"
 rna.path <- args[1]
 atac.path <- args[2]
 tmp_path <- args[3]
