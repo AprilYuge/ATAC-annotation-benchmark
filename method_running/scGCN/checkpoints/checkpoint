@@ -1,2 +1,0 @@
-model_checkpoint_path: "/gpfs/gibbs/pi/zhao/xs272/Multiomics/scGCN/scGCN/checkpoints/best_validation"
-all_model_checkpoint_paths: "/gpfs/gibbs/pi/zhao/xs272/Multiomics/scGCN/scGCN/checkpoints/best_validation"
